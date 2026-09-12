@@ -1,0 +1,99 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="nQDKiYy8YMKzhbBVkBVe">
+    <mxGraphModel dx="983" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yikVezaLhv6sSVvzzVei-8" parent="1" style="swimlane;" value="Sistem" vertex="1">
+          <mxGeometry height="850" width="335" x="425" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-20" parent="yikVezaLhv6sSVvzzVei-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Menampilkan Halaman Login" vertex="1">
+          <mxGeometry height="40" width="120" x="108" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-24" parent="yikVezaLhv6sSVvzzVei-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Cek Data" vertex="1">
+          <mxGeometry height="40" width="120" x="108" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-25" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-24" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yikVezaLhv6sSVvzzVei-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-26" parent="yikVezaLhv6sSVvzzVei-8" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Data Valid?" vertex="1">
+          <mxGeometry height="40" width="80" x="127.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-27" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-26" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PgVDC60er-8FwQ34L8vL-1" value="no">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="450" />
+              <mxPoint x="295" y="180" />
+            </Array>
+            <mxPoint x="268" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-28" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-26" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yikVezaLhv6sSVvzzVei-30" value="yes">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="175" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-30" parent="yikVezaLhv6sSVvzzVei-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Menampilkan Halaman Dashboad" vertex="1">
+          <mxGeometry height="40" width="120" x="108" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-31" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-30" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-32" parent="yikVezaLhv6sSVvzzVei-8" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="153" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-15" parent="yikVezaLhv6sSVvzzVei-8" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-182" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-16" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-15" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-167" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-17" parent="yikVezaLhv6sSVvzzVei-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Membuka Aplikasi" vertex="1">
+          <mxGeometry height="40" width="120" x="-227" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-22" parent="yikVezaLhv6sSVvzzVei-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Masukkan&lt;div&gt;Email dan Password&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="-227" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-19" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-17" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PgVDC60er-8FwQ34L8vL-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="190" as="sourcePoint" />
+            <mxPoint x="68" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-21" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-20" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="yikVezaLhv6sSVvzzVei-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="45" y="225" as="sourcePoint" />
+            <mxPoint x="168" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-23" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="yikVezaLhv6sSVvzzVei-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yikVezaLhv6sSVvzzVei-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-167" y="340" />
+            </Array>
+            <mxPoint x="-75" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgVDC60er-8FwQ34L8vL-1" parent="yikVezaLhv6sSVvzzVei-8" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Merge" vertex="1">
+          <mxGeometry height="40" width="80" x="128" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVDC60er-8FwQ34L8vL-4" edge="1" parent="yikVezaLhv6sSVvzzVei-8" source="PgVDC60er-8FwQ34L8vL-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yikVezaLhv6sSVvzzVei-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="185" as="sourcePoint" />
+            <mxPoint x="125" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yikVezaLhv6sSVvzzVei-7" parent="1" style="swimlane;" value="User" vertex="1">
+          <mxGeometry height="850" width="335" x="90" y="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
